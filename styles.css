@@ -478,8 +478,14 @@ input[type="text"] {
 
 .main-nav.show {
     display: flex;
+    max-width: fit-content;
 }
+
+
+.main-nav a {
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
 }
 
-
-
+}
